@@ -1,0 +1,17 @@
+.clickable { 
+    cursor: pointer;
+}
+
+.hoverable {
+    opacity: 0.8;
+}
+
+.hoverable:hover {
+    opacity: 1;
+}
+
+select:focus, input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
